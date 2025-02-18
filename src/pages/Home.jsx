@@ -1,13 +1,11 @@
 import React from 'react'
 import Carousel from '../components/Carousel'
 import ImageSection from '../components/ImageSection'
-import CommonRating from '../components/commonRating'
+import CommonRating from '../components/CommonRating'
 import HomeCollection from '../components/HomeCollection'
 import About from '../components/about'
 import { useState,useEffect } from 'react'
-import { useSelector } from 'react-redux'
 import '../scss/loader.scss'
-import Footer from '../components/Footer'
 
 const Home = () => {
  const [loading,setLoading]=useState(false)
@@ -19,9 +17,7 @@ const Home = () => {
 
         },1000)
     },[])
-
-
-   
+    
     return (
         <div>
             {loading?(

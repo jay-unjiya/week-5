@@ -23,6 +23,7 @@
     "react-router-dom": "^7.1.2",
     "redux": "^5.0.1",
     "sass": "^1.83.4",
+    "vercel": "^41.1.4",
     "yup": "^1.6.1"
   },
   "devDependencies": {
